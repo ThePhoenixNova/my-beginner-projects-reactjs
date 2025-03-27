@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    background-image: url('https://wallpapers.com/images/hd/website-background-a6wbhti5rhqieecp.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container: centered and fixed width */
+  .container {
+    width: 700px;
+    height: 500px;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  /* Header styling */
+  .container h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container h3 {
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type="text"]:focus {
+    background-color: #444;
+  }
+  
+  form button {
+    padding: 10px 15px;
+    background-color: #6200ee;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #4500cb;
+  }
+  
+  /* Todo list styling */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  li span {
+    flex: 1;
+    color: #fff;
+  }
+  
+  li button {
+    background: transparent;
+    border: none;
+    color: #e91e63;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  li button:hover {
+    color: #c2185b;
+  }
+.edit {
+    background: transparent;
+    border: none;
+    color: #6200ee;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+.edit:hover {
+    color: blue;
+  }
+  
